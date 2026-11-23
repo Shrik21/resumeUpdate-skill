@@ -1,0 +1,95 @@
+{
+  "name": "Jordan Sample",
+  "headline": "Backend Software Engineer",
+  "contact": {"phone": "+91-9000000000", "email": "jordan.sample@example.com", "location": "Pune, India"},
+  "links": {"LinkedIn": "https://www.linkedin.com/in/jordan-sample-example/", "GitHub": "https://github.com/jordan-sample-example"},
+  "career_start": "2018-07",
+  "page_size": "A4",
+  "summary": "Backend engineer with experience building REST APIs, event pipelines and data jobs in Python and Java for logistics and retail products.",
+  "experience": [
+    {
+      "id": "orbit",
+      "title": "Senior Software Engineer",
+      "company": "Orbit Labs",
+      "location": "Pune, India",
+      "dates": "Jan 2023 - Present",
+      "bullets": [
+        "Built REST APIs in Python (Django) serving 1.2M requests per day for an inventory forecasting platform",
+        "Cut p95 API latency from 480 ms to 190 ms by adding Redis caching and optimising PostgreSQL queries",
+        "Designed Kafka-based event pipelines that process 40k messages per minute with at-least-once delivery",
+        "Set up CI/CD with GitHub Actions and Docker, reducing release time from 2 hours to 25 minutes",
+        "Mentored 2 junior engineers and led weekly code reviews for a team of 6"
+      ]
+    },
+    {
+      "id": "brightwave",
+      "title": "Software Engineer",
+      "company": "Brightwave Technologies",
+      "location": "Pune, India",
+      "dates": "Jul 2020 - Dec 2022",
+      "bullets": [
+        "Developed Java Spring Boot microservices for order management, handling 15k orders per day",
+        "Migrated a monolithic billing module to microservices, cutting deployment time by 60%",
+        "Wrote pytest and JUnit suites that raised test coverage from 55% to 82%",
+        "Automated nightly data reconciliation jobs in Python, saving about 10 hours of manual work each week",
+        "Handled on-call rotations and resolved production incidents with a median time to restore of 35 minutes"
+      ]
+    },
+    {
+      "id": "nimbus",
+      "title": "Associate Software Engineer",
+      "company": "Nimbus Systems",
+      "location": "Hyderabad, India",
+      "dates": "Jul 2018 - Jun 2020",
+      "bullets": [
+        "Implemented REST endpoints and database schemas for a customer support portal using Flask and MySQL",
+        "Wrote SQL reports and dashboards used by 3 business teams",
+        "Fixed 120+ defects and shipped 8 feature releases over two years",
+        "Contributed to an internal onboarding tool used by 200 employees"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "stockpilot",
+      "name": "Stockpilot",
+      "descriptor": "Inventory forecasting service",
+      "context": "Orbit Labs",
+      "bullets": [
+        "Forecasts demand for 5,000 SKUs with a Python service and a nightly Airflow job",
+        "Exposes forecasts through a documented REST API consumed by the web dashboard",
+        "Deployed on AWS (ECS, RDS, S3) with Terraform and GitHub Actions"
+      ]
+    },
+    {
+      "id": "tripmate",
+      "name": "Tripmate",
+      "descriptor": "Trip planning web app",
+      "context": "Personal project",
+      "bullets": [
+        "Built a React and Node.js app with a PostgreSQL backend for sharing itineraries",
+        "Added map search and email reminders using a scheduled worker"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Example Institute of Technology",
+      "degree": "Bachelor of Technology (B.Tech), Computer Science",
+      "dates": "Jun 2018",
+      "place": "Pune, India",
+      "details": "CGPA: 8.1"
+    }
+  ],
+  "skills": [
+    {"label": "Languages:", "text": "Python, Java, SQL, JavaScript"},
+    {"label": "Backend:", "text": "Django, Flask, Spring Boot, REST APIs, Microservices, Celery"},
+    {"label": "Data and messaging:", "text": "PostgreSQL, MySQL, Redis, Apache Kafka, Airflow"},
+    {"label": "Cloud and DevOps:", "text": "AWS (EC2, S3, RDS, ECS, Lambda), Docker, Kubernetes, Terraform, GitHub Actions"},
+    {"label": "Testing:", "text": "pytest, JUnit, unit and integration testing"}
+  ],
+  "certifications": ["AWS Certified Cloud Practitioner (2022)"],
+  "awards": ["Spot Award for on-call reliability, Brightwave Technologies (2021)"],
+  "never_claim": ["Rust"]
+}
+
