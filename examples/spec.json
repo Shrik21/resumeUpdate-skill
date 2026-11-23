@@ -1,0 +1,41 @@
+{
+  "job": {"company": "Acme Cloud", "role": "Backend Engineer II"},
+  "header": {
+    "headline": "Backend Software Engineer | Python, Django, Kafka, AWS",
+    "keywords": ["Python", "Django", "Flask", "PostgreSQL", "Redis", "Kafka", "AWS", "Docker", "Terraform"]
+  },
+  "summary": "Backend Software Engineer with {YEARS} years building REST APIs, event pipelines and data jobs in **Python and Java**. Cut p95 API latency from **480 ms to 190 ms** with Redis caching and PostgreSQL tuning, and designed **Kafka** pipelines processing **40k messages per minute**. Comfortable with **AWS, Docker and Terraform**, CI/CD, on-call duty and automated testing.",
+  "skills": [
+    {"label": "Languages:", "text": "Python, Java, SQL, JavaScript"},
+    {"label": "Backend:", "text": "Django, Flask, Spring Boot, REST APIs, Microservices, Celery"},
+    {"label": "Data and messaging:", "text": "PostgreSQL, MySQL, Redis, Apache Kafka, Airflow"},
+    {"label": "Cloud and DevOps:", "text": "AWS (EC2, S3, RDS, ECS, Lambda), Docker, Kubernetes, Terraform, GitHub Actions"},
+    {"label": "Testing:", "text": "pytest, JUnit, unit and integration testing"}
+  ],
+  "experience": [
+    {"id": "orbit", "bullets": [
+      "Built REST APIs in **Python (Django)** serving **1.2M requests per day** for an inventory forecasting platform",
+      "Cut p95 API latency from **480 ms to 190 ms** by adding **Redis caching** and optimising **PostgreSQL** queries",
+      "Designed **Kafka**-based event pipelines that process **40k messages per minute** with at-least-once delivery",
+      "Set up **CI/CD** with GitHub Actions and Docker, reducing release time from 2 hours to 25 minutes",
+      "Mentored 2 junior engineers and led weekly code reviews for a team of 6"
+    ]},
+    {"id": "brightwave", "bullets": [
+      "Developed Java Spring Boot microservices for order management, handling 15k orders per day",
+      "Wrote **pytest** and JUnit suites that raised test coverage from 55% to 82%",
+      "Automated nightly data reconciliation jobs in **Python**, saving about 10 hours of manual work each week",
+      "Handled **on-call** rotations and resolved production incidents with a median time to restore of 35 minutes"
+    ]},
+    {"id": "nimbus", "bullets": [
+      "Implemented REST endpoints and database schemas for a customer support portal using Flask and MySQL",
+      "Fixed 120+ defects and shipped 8 feature releases over two years"
+    ]}
+  ],
+  "projects": [
+    {"id": "stockpilot", "bullets": [
+      "Forecasts demand for 5,000 SKUs with a **Python** service and a nightly Airflow job",
+      "Deployed on **AWS** (ECS, RDS, S3) with **Terraform** and GitHub Actions"
+    ]}
+  ]
+}
+
