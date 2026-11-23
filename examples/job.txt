@@ -1,0 +1,20 @@
+Backend Engineer II - Acme Cloud (Pune, hybrid)
+
+About the role
+Acme Cloud runs a logistics tracking platform used by 300 shipping partners. You will build and operate the services behind our shipment APIs.
+
+What you will do
+- Build and scale REST APIs in Python (Django or Flask)
+- Design event-driven flows on Kafka
+- Model data in PostgreSQL and cache hot paths in Redis
+- Run services on AWS with Docker and Terraform, and ship through CI/CD
+- Take part in the on-call rotation and improve reliability
+- Write Go services for the routing engine (nice to have)
+
+What we need
+- 4+ years of backend engineering
+- Strong Python; Django or Flask
+- Hands-on Kafka and PostgreSQL
+- Good testing habits (pytest)
+- Experience with AWS and infrastructure as code
+
